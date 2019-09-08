@@ -80,8 +80,8 @@ static int s_decoCount = 0;
 static QColor s_shadowColor(0, 0, 0);
 static QSharedPointer<KDecoration2::DecorationShadow> s_cachedShadow;
 
-static qreal s_titleBarOpacityActive = 0.8;
-static qreal s_titleBarOpacityInactive = 0.8;
+static qreal s_titleBarOpacityActive = 0.45;
+static qreal s_titleBarOpacityInactive = 0.45;
 
 Decoration::Decoration(QObject *parent, const QVariantList &args)
     : KDecoration2::Decoration(parent, args)
